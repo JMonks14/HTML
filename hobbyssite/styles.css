@@ -1,0 +1,13 @@
+#table {
+    border-style: solid;
+    border-color: black;
+}
+td,td{
+    height: 50px;
+    border-style: dashed;
+    text-align: center;
+
+}
+td:hover{
+    background-color: yellow;
+}
