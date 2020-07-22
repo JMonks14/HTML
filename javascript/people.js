@@ -9,3 +9,14 @@ class Teacher extends person {
     }
     
 }
+
+class Student extends person {
+    constructor(name,age,gender,hobby) {
+        super(name,age,gender)
+        this.hobby=hobby
+    }
+
+    talkHobby() {
+        return "My hobby is " + this.hobby
+    }
+}
